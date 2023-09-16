@@ -46,6 +46,7 @@ export default {
 			<head>
 				<meta charset="utf-8" />
 				<meta name="viewport" content="width=device-width" />
+				<meta name="apple-mobile-web-app-capable" content="yes" />
 				<style>
 					* {
 						box-sizing: border-box;
@@ -113,7 +114,7 @@ export default {
 							});
 					}
 
-					setInterval(loadNewspaper, 10000);
+					setInterval(loadNewspaper, 1000 * 15);
 				</script>
 			</body>
 		</html>
